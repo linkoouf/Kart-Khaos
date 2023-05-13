@@ -12,7 +12,9 @@ public class MainMenuScript : MonoBehaviour
     public GameObject Car;
     public GameObject Stand;
     public GameObject CarSoundSource;
-    
+    public GameObject EminemSong;
+    public GameObject IGSONG;
+
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +37,8 @@ public class MainMenuScript : MonoBehaviour
         Car.SetActive(false);
         Stand.SetActive(false);
         CarSoundSource.SetActive(true);
+        EminemSong.SetActive(false);
+        IGSONG.SetActive(true);
         
     }
 }
